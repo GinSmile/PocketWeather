@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:id="@+id/weather_info_today">
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="沈阳°"
+            android:textSize="14pt"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tmp_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="-5°"
+            android:textSize="36pt"
+            ></TextView>
+        <TextView
+            android:id="@+id/weather_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="小雪 -9°～-2°"
+            android:textSize="12pt"
+            ></TextView>
+        <TextView
+            android:id="@+id/weather_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="南风 2级°"
+            android:textSize="11pt"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/weather_hourforcast"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="这是小时天气预报"
+            android:textSize="12pt"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/daily_forecast"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dip"
+            android:layout_gravity="center_horizontal"
+            android:text="这是最近几天的天气预报"
+            android:textSize="12pt"
+            ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Refresh"
+                ></Button>
+            <Button
+                android:id="@+id/choose_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="选择城市"
+                ></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
